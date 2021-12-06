@@ -1,12 +1,14 @@
 import HeroSection from "../components/heroSection";
-import RealLifeIdol from "../components/realLifeIdol";
+import InspiredByNature from "../components/inspiredByNature";
+import HowItWorks from "../components/howItWorks";
 
 export default function Home() {
   return (
       <div className="relative overflow-hidden">
         <main>
             <HeroSection />
-            <RealLifeIdol />
+            <InspiredByNature />
+            <HowItWorks />
         </main>
       </div>
   )
