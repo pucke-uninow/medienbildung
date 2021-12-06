@@ -1,5 +1,5 @@
 import React, {useRef} from "react";
-import {ForceGraph2D} from 'react-force-graph';
+import {ForceGraph3D} from 'react-force-graph';
 
 function genRandomTree(N = 300, reverse = false) {
     const links = [...Array(N).keys()]
@@ -25,10 +25,10 @@ function genRandomTree(N = 300, reverse = false) {
 
 export default function BigNetwork() {
     const ref = useRef();
-    const gData = genRandomTree(50);
+    const gData = genRandomTree(200);
 
     return (
-        <ForceGraph2D
+        <ForceGraph3D
             ref={ref}
             cooldownTicks={100}
             onEngineStop={() => ref.current.zoomToFit(400)}
