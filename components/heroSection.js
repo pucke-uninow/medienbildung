@@ -1,8 +1,8 @@
 import React from "react";
-
+import { ArrowDownIcon } from '@heroicons/react/outline'
 export default function HeroSection() {
     return (
-        <div className="pt-10 bg-gray-900 sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-hidden h-screen">
+        <div className="pt-10 bg-gray-900 sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-hidden h-screen relative">
             <div className="mx-auto max-w-7xl lg:px-8">
                 <div className="lg:grid lg:grid-cols-2 lg:gap-8">
                     <div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center">
@@ -29,7 +29,12 @@ export default function HeroSection() {
             </div>
 
             {/* More main page content here... */}
-
+            <a href="#inspired"
+                type="button"
+                className="animate-bounce absolute left-1/2 bottom-12 lg:bottom-24  sm:hidden lg:block items-center p-3 border border-transparent rounded-full shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+            >
+                <ArrowDownIcon className="h-6 w-6" aria-hidden="true" />
+            </a>
         </div>
     )
 }
