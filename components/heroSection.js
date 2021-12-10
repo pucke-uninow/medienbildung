@@ -12,7 +12,7 @@ export default function HeroSection() {
                                 <span className="block text-indigo-400">mit dem Ameisenalgorithmus</span>
                             </h1>
                             <p className="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                                In der Informatik ist der Ameisenalgorithmus (Ant colony optimization) ein probabilistischer Ansatz um optimale Pfade in einem Graphen zu finden.
+                                In der Informatik ist der Ameisenalgorithmus (Ant colony optimization) ein probabilistischer Ansatz, um optimale Pfade in einem Graphen zu finden.
                             </p>
                         </div>
                     </div>
@@ -31,7 +31,7 @@ export default function HeroSection() {
             {/* More main page content here... */}
             <a href="#inspired"
                 type="button"
-                className="animate-bounce absolute left-1/2 bottom-12 lg:bottom-24  sm:hidden lg:block items-center p-3 border border-transparent rounded-full shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                className="animate-bounce absolute left-1/2 -ml-6 bottom-12 lg:bottom-2  sm:hidden lg:block items-center p-3 border border-transparent rounded-full shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
             >
                 <ArrowDownIcon className="h-6 w-6" aria-hidden="true" />
             </a>
